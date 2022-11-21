@@ -248,7 +248,7 @@ TriggerEvent('gridsystem:registerMarker', {
     control = 'E', 
     action = function()
 		if not disattivadialoghi then
-			lib.progressCircle({duration = 2000, label = 'Parlando con Arturo...', position = 'bottom', useWhileDead = false, canCancel = true,disable = {car = true,},})
+			lib.progressCircle({duration = 2000, label = 'Parlando con Arturo...', position = 'bottom', useWhileDead = false, canCancel = false,disable = {car = true,},})
 			ExecuteCommand("e think2")
 		Wait(300)
 		lib.notify({id = 'msg1', title = 'Tu', description = 'Mi servirebbe un lavoretto', position = 'top', style = {backgroundColor = '#141517',color = '#909296'},icon = 'user', iconColor = '#fcfdfd'})
@@ -287,7 +287,7 @@ TriggerEvent('gridsystem:registerMarker', {
     action = function()
 		if not disattivadialoghi then
 			
-		lib.progressCircle({duration = 2000, label = 'Parlando con Tony...', position = 'bottom', useWhileDead = false, canCancel = true,disable = {car = true,},})
+		lib.progressCircle({duration = 2000, label = 'Parlando con Tony...', position = 'bottom', useWhileDead = false, canCancel = false,disable = {car = true,},})
 		ExecuteCommand("e think2")
 
 		Wait(300)
