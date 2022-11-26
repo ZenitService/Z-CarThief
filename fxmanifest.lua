@@ -1,8 +1,7 @@
 author 'Zenit Service'
 description 'Free Relase Zenit Service Furto Veicolo '
 
-version '2.0'
-versioncheck 'https://github.com/ZenitService/Z-CarThief/blob/main/fxmanifest.lua'
+version '1.0.0'
 
 fx_version 'adamant'
 games {'gta5'}
@@ -11,8 +10,7 @@ lua54 'yes'
 server_scripts {
 	'@ox_lib/init.lua',
 	'config.lua',
-	'server/main.lua',
-	'server/sv_version.lua'
+	'server/main.lua'
 }
 
 client_scripts {
