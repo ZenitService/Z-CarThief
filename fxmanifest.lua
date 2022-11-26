@@ -1,7 +1,7 @@
 author 'Zenit Service'
 description 'Free Relase Zenit Service Furto Veicolo '
 
-version '1.0.0'
+version '1.0'
 versioncheck 'https://github.com/ZenitService/Z-CarThief/blob/main/fxmanifest.lua'
 
 fx_version 'adamant'
